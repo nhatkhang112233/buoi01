@@ -1,0 +1,34 @@
+{
+  "name": "buoi1",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node --inspect src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThanhNgan3005/TH_Buoi1.git"
+  },
+  "author": "2000152_LeThanhNgan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThanhNgan3005/TH_Buoi1/issues"
+  },
+  "homepage": "https://github.com/ThanhNgan3005/TH_Buoi1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.8",
+    "@babel/node": "^7.22.6",
+    "@babel/preset-env": "^7.22.7",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.1",
+    "mysql2": "^3.6.1"
+  },
+  "description": ""
+}

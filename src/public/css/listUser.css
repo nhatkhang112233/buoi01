@@ -1,0 +1,9 @@
+.table-striped-custom  tbody tr:nth-of-type(odd) {
+    background-color: #1e89ee; 
+    color: white;
+    
+}
+.table-striped-custom a{
+    text-decoration: none;
+    font-size: 25px;
+}
